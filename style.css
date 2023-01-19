@@ -1,0 +1,70 @@
+body{
+    background-color: #ffddb6;
+}
+
+
+
+.card{
+    background-color:#0f0a0a;
+    color: #ac3613;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px; */
+    /* padding: 0 0 0 300px; */
+}
+
+.card-body{
+align-items: center;
+}
+
+/* .film{
+    display: none;
+} */
+
+.container-card{
+    color: white;
+    /* display: flex; */
+    width: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 90px;
+    padding-right: 180px;
+    gap: 20px;
+  }
+
+  .card-bg{
+    width: 165px;
+    height: 250px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .carta:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+  #popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 99;
+  }
+  
+  main.popup_active {
+    filter: blur(5px);
+  }
+  
